@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+body {
+    font-family: 'Jua', cursive, sans-serif;
+    background: #fff0f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1 {
+    color: #e53935;
+    margin-top: 40px;
+    font-size: 2.7em;
+    letter-spacing: 2px;
+    text-shadow: 1px 2px 8px #ffd6d6;
+}
+.profile-card {
+    background: #fff;
+    border-radius: 22px;
+    box-shadow: 0 4px 16px rgba(229,57,53,0.13);
+    margin: 40px auto;
+    padding: 40px 30px 30px 30px;
+    width: 370px;
+    display: inline-block;
+    border: 2.5px dashed #e57373;
+    position: relative;
+}
+.profile-img-link {
+    display: inline-block;
+    transition: transform 0.2s;
+}
+.profile-img-link:hover .profile-img {
+    transform: scale(1.07) rotate(-3deg);
+    box-shadow: 0 0 0 6px #ffb3b3;
+}
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 18px;
+    border: 4px solid #e53935;
+    background: #fff;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.profile-name {
+    font-size: 2.1em;
+    font-weight: bold;
+    color: #e53935;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+}
+.profile-role {
+    color: #ff5252;
+    margin-bottom: 12px;
+    font-size: 1.2em;
+}
+.profile-desc {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 10px;
+    line-height: 1.7;
+}
+.profile-info {
+    font-size: 1em;
+    color: #888;
+    margin-top: 10px;
+    text-align: left;
+    display: inline-block;
+}
+.profile-info div {
+    margin-bottom: 3px;
+}
+.profile-instagram {
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+.profile-instagram a {
+    color: #e53935;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+.profile-instagram a:hover {
+    color: #b71c1c;
+    text-decoration: underline;
+}
